@@ -5,22 +5,8 @@
     {
       "idx": 0,
       "version": "7",
-      "when": 1745513793969,
-      "tag": "20250424165633_sturdy_the_leader",
-      "breakpoints": true
-    },
-    {
-      "idx": 1,
-      "version": "7",
-      "when": 1745825162557,
-      "tag": "20250428072602_jazzy_night_nurse",
-      "breakpoints": true
-    },
-    {
-      "idx": 2,
-      "version": "7",
-      "when": 1745826376169,
-      "tag": "20250428074616_late_gambit",
+      "when": 1748873938625,
+      "tag": "20250602141858_nifty_kylun",
       "breakpoints": true
     }
   ]

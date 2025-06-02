@@ -1,9 +1,12 @@
 import { seedAdminUser } from "./admin.seeder";
 import { seedStudents } from "./user.seeders";
+import { seedDepartment } from "./department.seeder";
+
 const seedDatabase = async () => {
   try {
     console.log("🚀 Starting database seeding...");
     // seeders here
+    await seedDepartment();
     await seedAdminUser();
     // await seedStudents();
     process.exit(0);

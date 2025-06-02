@@ -4,8 +4,9 @@ import {
 } from "drizzle-orm/postgres-js/driver";
 import postgres from "postgres";
 import "dotenv/config";
+import { dbConfig } from "../config/config";
 
-const connectionString = process.env.DATABASE_URI;
+const connectionString = dbConfig.databaseUrl;
 console.log(connectionString);
 
 if (!connectionString) throw new Error("DATABASE_URI not set");
