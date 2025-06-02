@@ -1,16 +1,15 @@
 {
-    "version": 2,
-    "builds": [
-        {
-            "src": "api/**/*.js",
-            "use": "@vercel/node"
-        }
-    ],
-    "routes": [
-        {
-            "src": "/api/(.*)",
-            "dest": "/api/$1.js"
-        }
-    ],
-    "ignoreCommand": "echo 'Ignoring files not needed for deployment'"
+  "version": 2,
+  "builds": [
+    {
+      "src": "app.ts",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "app.ts"
+    }
+  ]
 }
